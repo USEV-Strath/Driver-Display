@@ -86,7 +86,7 @@ void loop() {
     velocity = testValues2[v % 5];
     updateVelocity(velocity);
 
-    batteryPercent = 10;//testValues[v % 5];
+    batteryPercent = 50;//testValues[v % 5];
     updateBatteryPercent(batteryPercent);
 
     motorOn = v % 2 == 0;
