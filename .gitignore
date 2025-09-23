@@ -1,32 +1,36 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+# Compiled object files
 *.o
-*.obj
+*.elf
 
-# Precompiled Headers
-*.gch
-*.pch
+# Arduino build folders
+/build/
+/*.bin
+/*.hex
+/*.eep
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# IntelliSense and other IDE-specific files
+.vscode/
+*.code-workspace
 
-# Fortran module files
-*.mod
-*.smod
+# Arduino Sketchbook backups
+*.bak
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# OS-specific files
+.DS_Store
+Thumbs.db
 
-# Executables
-*.exe
-*.out
-*.app
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# PlatformIO
+.pio/
+.vscode/
+*.ini
+
+# Arduino CLI build cache
+arduino_cache/
